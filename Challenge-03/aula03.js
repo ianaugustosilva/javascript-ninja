@@ -145,6 +145,14 @@ pessoa.idade;
 Agora, faça a `pessoa` caminhar alguns metros, invocando o método `andar` 3x,
 com metragens diferentes passadas por parâmetro.
 */
+
+pessoa.andar();
+pessoa.caminhouQuantosMetros;
+// 1
+pessoa.andar();
+pessoa.caminhouQuantosMetros;
+// 2
+pessoa.andar();
 pessoa.caminhouQuantosMetros;
 // 3
 
