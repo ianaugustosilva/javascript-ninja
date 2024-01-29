@@ -144,19 +144,25 @@ car.changeColor("Green Musgo");
 // model: 'Range Rover',
 
 // Adicione 2 pessoas no carro.
-// car.addPeople(2) // 'We already have 2 people in the car'
+car.addPeople(2);
+// 'We already have 2 people in the car'
 
 // Adicione mais 4 pessoas no carro.
-// car.addPeople(4) // 'It can only fit 3 more peoples!'
+car.addPeople(4);
+// 'It can only fit 3 more peoples!'
 
 // Faça o carro encher.
-// car.addPeople(3) // 'We already have 5 people in the car'
+car.addPeople(3);
+// 'We already have 5 people in the car'
 
 // Tire 4 pessoas do carro.
-// car.addPeople(-4) // 'We already have 1 people in the car'
+car.addPeople(-4);
+// 'We already have 1 people in the car'
 
 // Adicione 10 pessoas no carro.
-//car.addPeople(10) // 'The car is full'
+car.addPeople(10);
+// 'The car is full'
 
 // Quantas pessoas temos no carro?
-// car.quantityPeople // 5
+car.quantityPeople;
+// 5
