@@ -13,6 +13,8 @@ isTruthy();
 isTruthy(false);
 isTruthy(-0);
 isTruthy("");
+isTruthy(0);
+isTruthy(NaN);
 
 /*
 Invoque a função criada acima passando como parâmetro 10 valores `truthy`.
@@ -20,6 +22,10 @@ Invoque a função criada acima passando como parâmetro 10 valores `truthy`.
 isTruthy(1);
 isTruthy("a");
 isTruthy(true);
+isTruthy([]);
+isTruthy({});
+isTruthy(function () {});
+isTruthy(35 * 6);
 
 /*
 Declare uma variável chamada `carro`, atribuindo à ela um objeto com as
@@ -145,15 +151,15 @@ car.changeColor("Green Musgo");
 
 // Adicione 2 pessoas no carro.
 car.addPeople(2);
-// 'We already have 2 people in the car'
+// 'The car is full'
 
 // Adicione mais 4 pessoas no carro.
 car.addPeople(4);
-// 'It can only fit 3 more peoples!'
+//  'The car is full'
 
 // Faça o carro encher.
 car.addPeople(3);
-// 'We already have 5 people in the car'
+// ' 'The car is full'
 
 // Tire 4 pessoas do carro.
 car.addPeople(-4);
@@ -161,7 +167,7 @@ car.addPeople(-4);
 
 // Adicione 10 pessoas no carro.
 car.addPeople(10);
-// 'The car is full'
+// 'It can only fit 4 more peoples in the car!'
 
 // Quantas pessoas temos no carro?
 car.quantityPeople;
