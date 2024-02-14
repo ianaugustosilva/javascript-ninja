@@ -32,7 +32,7 @@ function myFunction2(arr, index) {
 Declare uma variável que recebe um array com 5 valores, de tipos diferentes.
 */
 
-array5diffs = ["Augusto", 123, false, [26, 12, "December"], { bana: "na" }];
+var array5diffs = ["Augusto", 123, false, [26, 12, "December"], { bana: "na" }];
 
 /*
 Invoque a função criada acima, fazendo-a retornar todos os valores do último
