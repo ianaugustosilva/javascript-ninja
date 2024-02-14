@@ -48,7 +48,7 @@ var car = {
   color: "Black",
   numberOfDoors: 2,
   seats: 5,
-  quantityPeople: 5,
+  quantityPeople: 0,
 };
 
 /*
@@ -151,15 +151,15 @@ car.changeColor("Green Musgo");
 
 // Adicione 2 pessoas no carro.
 car.addPeople(2);
-// 'The car is full'
+// 'We already have 2 people in the car'
 
 // Adicione mais 4 pessoas no carro.
 car.addPeople(4);
-//  'The car is full'
+// 'It can only fit 3 more peoples in the car!'
 
 // Faça o carro encher.
 car.addPeople(3);
-// ' 'The car is full'
+// 'We already have 5 people in the car'
 
 // Tire 4 pessoas do carro.
 car.addPeople(-4);
@@ -171,4 +171,4 @@ car.addPeople(10);
 
 // Quantas pessoas temos no carro?
 car.quantityPeople;
-// 5
+// 1
